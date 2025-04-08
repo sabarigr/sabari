@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+ 
+  - name: WALMART
+    database: WALMARTDB
+    schema: WALMART
+    tables:
+      - name: DIM_CUST
+  - name : HOCKEY
+    database: HOCKEYDB
+    schema: HOCKEY
+    tables:
+      - name: COACHES
+      - name: SCORING
+  - name: TRAINING_DS
+    database: TRAINING_DS
+    schema: DBT_SSUKRAJ
+    tables:
+      - name: orders
